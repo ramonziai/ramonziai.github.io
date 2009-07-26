@@ -169,7 +169,7 @@ form {
  /*allgemeine Definition Hauptteil*/
 #mainpartwrapper {
     width: 690px;
-    margin: 0px 0px 0px 214px;
+    margin: 0px 0px 0px 300px;
     height: auto;
     background-color: #fff;
     padding: 0px;
@@ -328,6 +328,11 @@ form {
 #krupplogo {
     text-align: center;
 }
+
+#ramon-portrait {
+    float: left;
+}
+
 .krupp {
     font-size: 65%;
     padding-top: 5px;

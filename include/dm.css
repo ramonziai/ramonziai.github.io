@@ -25,6 +25,9 @@ body {
     font-size: 100,01%;
     min-height:101%;
 }
+p {
+    margin: .5em;
+}
 ul {
     font-size: 75%
 }

@@ -20,36 +20,31 @@
 "<a href="http://www.sfb833.uni-tuebingen.de/wb/pages/de/a-bereich-kontext/a4-meurers.php">A4</a>: Comparing Meaning in Context: Components of a Shallow Semantic Analysis" of the collaborative research
 center <a href="http://www.sfb833.uni-tuebingen.de">SFB833</a>.
 </p>
-<br/>
 
 <h4>Contact:</h4>
 <p>Nauklerstr. 35 / 1.07 <br />
 72074 Tübingen </p>
-<br/>
 <p>Phone: +49 7071 29-77167<br/>
 E-mail: rziai ät sfs dot uni dash tuebingen dot de  </p>
-<br/>
 <h4>Research Interests</h4>
 
 <p>
 <ul>
   <li>Intelligent Language Tutoring Systems</li>
   <li>Shallow Semantic Analysis and Textual Entailment</li>
-  <li>Good Software Architecture in NLP systems</li>
 </ul>
 </p>
-<br />
 <h4>Projects I contributed to</h4>
+<p>
 <ul>
   <li><a href="http://purl.org/dm/tagarela">TAGARELA</a>, an Intelligent Language Tutoring System</li>
   <li><a href="http://purl.org/dm/werti">WERTi</a>, a platform for authentic text ICALL</li>
   <li>The <a href="http://purl.org/sacodeyl/searchtool">SACODEYL Search Tool</a>, a search engine for the <a href="http://www.um.es/sacodeyl">SACODEYL</a> corpora</li>
   <li>The <a href="http://www.drni.de/wac-tk">Web as Corpus Toolkit</a></li>
-  <li>The <a href="http://www.drni.de/niels/s9y/pages/clusterlib.html">ClusterLib</a> library</li>
-  <li><a href="http://www.drni.de/niels/s9y/pages/generic-levenshtein.html">A generic Levenshtein implementation</a></li>
+  <li><a href="http://purl.org/icall/welcome">WELCOME</a>, a platform for distributed collection of structured learner corpus data</li>
 </ul>
+</p>
 
-<br/>
 <h4>Publications</h4>
 <!--#include virtual="ziai.html" -->
 </div>

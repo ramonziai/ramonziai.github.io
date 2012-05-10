@@ -8,7 +8,7 @@
 
 <body>
 
-<img id="ramon-portrait" src="gfx/webcam-buero.jpg"/>
+<img id="ramon-portrait" src="gfx/portrait.jpg"/>
 
 <div id="mainpartwrapper">
   <div id="mainparttitle">Welcome to Ramon Ziai's Homepage</div>

@@ -8,12 +8,12 @@
 
 <body>
 
-<img id="ramon-portrait" src="gfx/portrait.jpg"/>
 
 <div id="mainpartwrapper">
   <div id="mainparttitle">Welcome to Ramon Ziai's Homepage</div>
   <div id="mainpart">
 
+  <img id="ramon-portrait" src="gfx/portrait.jpg"/>
 
 
 <p>I am a doctoral student at Tübingen University, currently pursuing a PhD in the area of Content Assessment. More specifically, I am exploring how notions in Information Structure and Answer Typing influence the assessment of an answer to a question with regard to content. To that end, I work in the project

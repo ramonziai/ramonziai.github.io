@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+
+	Nonzero1.0 by nodethirtythree design
+	http://www.nodethirtythree.com
+	missing in a maze
+
+-->
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf8" />
+<title>Homepage of Ramon Ziai</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+
+<div id="header">
+
+	<div id="header_inner" class="fixed">
+
+		<div id="logo">
+			<a href="http://www.uni-tuebingen.de"><img src="images/UT_WBMW_Weiss_1C_tr.png" style="max-height: 200px; max-width: 200px; border: none"/></a>
+			<h2>Ramon Ziai's homepage</h2>
+		</div>
+		
+		<div id="menu">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="publications.shtml" class="active">Publications</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+		
+	</div>
+</div>
+
+<div id="main">
+
+	<div id="main_inner" class="fixed">
+
+		<div id="primaryContent_columnless">
+
+			<div id="columnA_columnless">
+<h3>Research</h3>
+<p>
+My research interests include, but are not limited to:
+<ul>
+    <li>(Computational Approaches to) Information Structure</li>
+    <li>Answer Typing</li>
+    <li>Short answer evaluation</li>
+    <li>Intelligent Language Tutoring Systems</li>
+</ul>
+</p>
+
+<h3>Publications</h3>
+<!--#include virtual="ziai.html" -->
+
+</div>
+</div>
+</div>
+</div>
+
+<div id="footer" class="fixed">
+	Copyright &copy; 2014 Ramon Ziai. All rights reserved. Design by <a href="http://www.nodethirtythree.com/">NodeThirtyThree Design</a>.
+</div>
+</body>
+</html>

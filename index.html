@@ -1,128 +1,161 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <!--
 	Read Only by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Ramon Ziai</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-		<script type="module" src='https://unpkg.com/html-include-element'></script>
-	</head>
-	<body>
+  <head>
+    <title>Ramon Ziai</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"
+    />
+    <script type="module" src="https://unpkg.com/html-include-element"></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <section id="header">
+      <header>
+        <span class="image avatar"
+          ><img src="images/ramon-avatar.jpg" alt=""
+        /></span>
+        <h1 id="logo"><a href="#">Dr. Ramon Ziai</a></h1>
+        <p>Computational Linguist</p>
+      </header>
+      <nav id="nav">
+        <ul>
+          <li><a href="#welcome" class="active">Welcome!</a></li>
+          <!-- 						<li><a href="#two">Research Interests</a></li> -->
+          <li><a href="#pubs">Publications</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <footer>
+        <ul class="icons">
+          <li>
+            <a href="https://github.com/ramonziai" class="icon fa-github"
+              ><span class="label">Github</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="https://scholar.google.de/citations?user=mq0jzdAAAAAJ"
+              class="ai ai-google-scholar"
+            ></a>
+          </li>
+          <li>
+            <a href="https://linkedin.com/in/ramonziai" class="icon fa-linkedin"
+              ><span class="label">LinkedIn</span></a
+            >
+          </li>
+          <li>
+            <a href="mailto:ramon.ziai@bettermarks.com" class="icon fa-envelope"
+              ><span class="label">Email</span></a
+            >
+          </li>
+        </ul>
+      </footer>
+    </section>
 
-		<!-- Header -->
-			<section id="header">
-				<header>
-					<span class="image avatar"><img src="images/ramon-avatar.jpg" alt="" /></span>
-					<h1 id="logo"><a href="#">Dr. Ramon Ziai</a></h1>
-					<p>Computational Linguist</p>
-				</header>
-				<nav id="nav">
-					<ul>
-						<li><a href="#welcome" class="active">Welcome!</a></li>
-<!-- 						<li><a href="#two">Research Interests</a></li> -->
-						<li><a href="#pubs">Publications</a></li>
-						<li><a href="#contact">Contact</a></li>
-					</ul>
-				</nav>
-				<footer>
-					<ul class="icons">
-						<li><a href="https://github.com/ramonziai" class="icon fa-github"><span class="label">Github</span></a></li>
-						<li><a href="https://scholar.google.de/citations?user=mq0jzdAAAAAJ" class="ai ai-google-scholar"></a></li>
-						<li><a href="https://linkedin.com/in/ramonziai" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-						<li><a href="mailto:ramon.ziai@bettermarks.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
-					</ul>
-				</footer>
-			</section>
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Main -->
+      <div id="main">
+        <!-- One -->
+        <section id="welcome">
+          <div class="container">
+            <header class="major">
+              <h2>Welcome!</h2>
+              <p>
+                I am a researcher in Computational Linguistics at the University
+                of Tübingen.
+              </p>
+            </header>
+            <p>
+              I am interested in Intelligent Computer-Assisted Language
+              Learning, Content Assessment (sometimes called Automated Short
+              Answer Grading) and computational approaches to Information
+              Structure. To find out more about the latter two, I worked in the
+              <a
+                href="https://uni-tuebingen.de/en/research/core-research/collaborative-research-centers/crc-833/research-projects/a4-meurers/"
+                >CoMiC project</a
+              >
+              on automatic meaning evaluation of student answers to reading
+              comprehension questions, tying in information structure with
+              shallow semantic analysis. After completing my
+              <a href="http://hdl.handle.net/10900/81732">PhD thesis</a>, I
+              started working on transferring my research into an Intelligent
+              Language Tutoring System called
+              <a href="http://purl.org/icall/feedbook">FeedBook</a>. Currently,
+              I am working as PI of the
+              <a href="http://www.uni-tuebingen.de/isaac">ISAAC project</a>,
+              where I pursue the transfer and integration of Content Assessment
+              into real-life language testing and tutoring systems.
+            </p>
+          </div>
+        </section>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+        <section id="pubs">
+          <div class="container">
+            <h3>Publications</h3>
+            <h4>2019</h4>
+            <html-include src="./bib/ziai-2019.html"></html-include>
+            <h4>2018</h4>
+            <html-include src="./bib/ziai-2018.html"></html-include>
+            <h4>2017</h4>
+            <html-include src="./bib/ziai-2017.html"></html-include>
+            <h4>2016</h4>
+            <html-include src="./bib/ziai-2016.html"></html-include>
+            <h4>2015</h4>
+            <html-include src="./bib/ziai-2015.html"></html-include>
+            <h4>2014</h4>
+            <html-include src="./bib/ziai-2014.html"></html-include>
+            <h4>2013</h4>
+            <html-include src="./bib/ziai-2013.html"></html-include>
+            <h4>2012</h4>
+            <html-include src="./bib/ziai-2012.html"></html-include>
+            <h4>2011</h4>
+            <html-include src="./bib/ziai-2011.html"></html-include>
+            <h4>2010</h4>
+            <html-include src="./bib/ziai-2010.html"></html-include>
+            <h4>2009</h4>
+            <html-include src="./bib/ziai-2009.html"></html-include>
+          </div>
+        </section>
 
-				<!-- Main -->
-					<div id="main">
+        <!-- Four -->
+        <section id="contact">
+          <div class="container">
+            <h3>Contact Me</h3>
+            <p>E-mail: ramon.ziai ät bettermarks dot com</p>
+          </div>
+        </section>
+      </div>
 
-						<!-- One -->
-							<section id="welcome">
-								<div class="container">
-									<header class="major">
-										<h2>Welcome!</h2>
-										<p>I am a researcher in Computational Linguistics at the University of Tübingen.</p>
-									</header>
-									<p>I am interested in Intelligent Computer-Assisted Language Learning, Content Assessment
-									(sometimes called Automated Short Answer Grading) and computational approaches to Information Structure.
-To find out more about the latter two, I worked in the <a href="https://uni-tuebingen.de/en/research/core-research/collaborative-research-centers/crc-833/research-projects/a4-meurers/">CoMiC project</a>
-on automatic meaning evaluation of student answers to reading comprehension questions,
-tying in information structure with shallow semantic analysis. After completing my <a href="http://hdl.handle.net/10900/81732">PhD thesis</a>, I started working
-on transferring my research into an Intelligent Language Tutoring System called <a href="http://purl.org/icall/feedbook">FeedBook</a>. Currently, I am working as PI of the <a href="http://www.uni-tuebingen.de/isaac">ISAAC project</a>,
-where I pursue the transfer and integration of Content Assessment into real-life language testing and tutoring systems.</p>
-								</div>
-							</section>
+      <!-- Footer -->
+      <section id="footer">
+        <div class="container">
+          <ul class="copyright">
+            <li>&copy; Ramon Ziai. All rights reserved.</li>
+            <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+          </ul>
+        </div>
+      </section>
+    </div>
 
-							<section id="pubs">
-								<div class="container">
-									<h3>Publications</h3>
-									<h4>2019</h4>
-									<html-include src="./bib/ziai-2019.html"></html-include>
-									<h4>2018</h4>
-					<html-include src="./bib/ziai-2018.html"></html-include>
-					<h4>2017</h4>
-					<html-include src="./bib/ziai-2017.html"></html-include>
-					<h4>2016</h4>
-					<html-include src="./bib/ziai-2016.html"></html-include>
-					<h4>2015</h4>
-					<html-include src="./bib/ziai-2015.html"></html-include>
-					<h4>2014</h4>
-					<html-include src="./bib/ziai-2014.html"></html-include>
-					<h4>2013</h4>
-					<html-include src="./bib/ziai-2013.html"></html-include>
-					<h4>2012</h4>
-					<html-include src="./bib/ziai-2012.html"></html-include>
-					<h4>2011</h4>
-					<html-include src="./bib/ziai-2011.html"></html-include>
-					<h4>2010</h4>
-					<html-include src="./bib/ziai-2010.html"></html-include>
-					<h4>2009</h4>
-					<html-include src="./bib/ziai-2009.html"></html-include>
-				</div>
-							</section>
-
-						<!-- Four -->
-							<section id="contact">
-								<div class="container">
-									<h3>Contact Me</h3>
-									<p>E-mail: ramon.ziai ät bettermarks dot com  </p>
-								</div>
-							</section>
-
-
-					</div>
-
-				<!-- Footer -->
-					<section id="footer">
-						<div class="container">
-							<ul class="copyright">
-								<li>&copy; Ramon Ziai. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-							</ul>
-						</div>
-					</section>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollzer.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollzer.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <!--[if lte IE 8
+      ]><script src="assets/js/ie/respond.min.js"></script
+    ><![endif]-->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
